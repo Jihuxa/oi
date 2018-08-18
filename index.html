@@ -1,0 +1,654 @@
+<html class="clamp" lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript" src="https://bam.nr-data.net/1/514ad3a339?a=13859432&amp;v=1071.385e752&amp;to=IF5WTENYVA9QQEsDVQFUSmdSW1FMUF8GA0pMWFZcVE8%3D&amp;rst=2089&amp;ref=https://components.novationmusic.com/&amp;qt=8&amp;ap=10&amp;be=307&amp;fe=2038&amp;dc=733&amp;perf=%7B%22timing%22:%7B%22of%22:1534601042434,%22n%22:0,%22f%22:89,%22dn%22:89,%22dne%22:89,%22c%22:89,%22s%22:0,%22ce%22:89,%22rq%22:89,%22rp%22:89,%22rpe%22:89,%22dl%22:274,%22di%22:728,%22ds%22:730,%22de%22:733,%22dc%22:2038,%22l%22:2038,%22le%22:2039%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1071.min.js"></script><script src="https://connect.facebook.net/signals/config/1061087273925450?v=2.8.25&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script crossorigin="" src="https://d37gvrvc0wt4s1.cloudfront.net/js/v1.9/rollbar.min.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"514ad3a339","applicationID":"13859432","transactionName":"IF5WTENYVA9QQEsDVQFUSmdSW1FMUF8GA0pMWFZcVE8=","queueTime":8,"applicationTime":10,"agent":""}</script>
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <title>Novation Components</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-2719620-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    
+
+    <link rel="stylesheet" href="../fonts/fonts-295a3ccd4964c33cb9d04db4aaef754e.css" integrity="sha256-pAv84+c8n2cyBovcFRttvuATRBC3W19E7/LKzyvcl9o= sha512-aBYxPBL24eNMQta/jY6X/3xIVmYdWkDM/Q4zVRm0yHS2SVjV3cVRAuLjl6bl/+SUq83wOhckgVPoncDbNB6xWg==">
+    <link rel="stylesheet" href="../assets/vendor-720a3d50cc5f81533324cffa129a536f.css" integrity="sha256-+CgswP9P3rUXGa10nPcZC17BVropkRC2VtJckC+rAfc= sha512-m5HHtlL2VE1FydAEn+rqDXLc5+yerBxBEP1zNajYue9R4khqssIHpqITnwrps+r3NUgdqrUXpK8bV6C7KTO1+Q==">
+    <link rel="stylesheet" href="../assets/frontend-7ae6a6b5fa7bf035bede7a5d62b106ec.css" integrity="sha256-PH48I+heHc2/eKAglytTvtWINcQRhOdQRxJ/CgsNFbs= sha512-14MbVw0ji3BFVr4mH7j8r3UmLPxzgOv12w/y6EtmTgcxGduQxS35yL7tMw0NqZmGpifbuv8YBsZzUkbjQpOLlg==">
+
+    
+      <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="CiIc6BhVhOdS2fQbtroBSVvmZhXW4Sz/zdLczNlAvhqqLm53teZ7XLM9eoeNLOqEGq1E835eZASoreP4ffZdCQ==">
+</head>
+  <body class="clamp ember-application">
+
+    
+    <script type="text/javascript" src="../assets/vendor-9331aa1e2353c61337c5d65f3e7a3d6b.js" integrity="sha256-56fW5lnvKKmEBNeK/Ef+BKWBIU8HubG60YBFoJ5sKyI= sha512-OmGXq1YMfUbCGkdoPKsmW8gVRLQwwmwPeCdmhZKmTs763S68H4fQemcofmfgfmflXuhtxVWVSg5GVKEkBY4bfg=="></script>
+    <script type="text/javascript" src="../assets/frontend-a6983714435c3c096a3bea33bb411bd4.js" integrity="sha256-lZqUv3VATKqjr8uwYTsFfqefIeOvj/pdLK4mBisSz00= sha512-F8+QZYJ+WuKTSt5XROAHLfevshmb/OTiuCyLdFT9ThQ8Ok7KGbhIACA7UvLb1eDTfei9f8dTDfD7KPasYzPj5w=="></script>
+    <script src="../assets/decode_worker-b544cf3259777eb680fc64546a44d071.js" type="text/x-worker-script" id="worker-script-tag" integrity="sha256-o6iBJnkgrXHl9hPi0792ure3/pYuJYdaZOIxJaJB+cA= sha512-REok91Pp+MsqUW5icWLH4tuPXr9tN1RaE7SO6hbmMkecO1aNzVCvRltBrku59qu/tEvVA7QpeAfswOJWelVNoQ=="></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1061087273925450');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1061087273925450&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    
+  
+
+<div id="modal-overlays"></div><div id="ember438" class="ember-view"><!---->
+<div class="full-container">
+<div id="ember474" class="ember-view">      <header data-top-bar="" role="navigation" class="top-bar">
+      <div class="top-bar__inner">
+        <h1 class="top-bar__logo"><a href="https://novationmusic.com" target="_blank" class="top-bar__logo-primary"><span class="top-bar__logo-primary-inner">Novation</span></a><a href="/?jump=0" id="ember479" class="top-bar__logo-secondary ember-view"><span class="top-bar__logo-secondary-inner"><span class="top-bar__logo-secondary-inner">Circuit Librarian</span></span></a></h1>
+      </div>
+    </header>
+
+</div>  <section class="main-section">
+    <nav class="top-nav flex-no-shrink">
+      <div class="top-nav--wrapper-inner">
+        <ul class="top-nav--section top-nav--section__left">
+<li id="ember484" class="top-nav--nav-entry active ember-view">            <a href="/circuit" id="ember485" class="top-nav--nav-link active ember-view"><span class="main-section__main-nav-link-label">Circuit</span></a>
+</li><li id="ember486" class="top-nav--nav-entry ember-view">            <a href="/peak" id="ember487" class="top-nav--nav-link ember-view"><span class="main-section__main-nav-link-label">Peak</span></a>
+</li><li id="ember496" class="top-nav--nav-entry ember-view">            <a href="/circuit-mono-station" id="ember497" class="top-nav--nav-link ember-view"><span class="main-section__main-nav-link-label">Circuit Mono Station</span></a>
+</li><!---->          <li id="ember508" class="main-section__main-nav-link no-underline update-notice-button no-underline ember-view"><!---->
+<!----></li>
+        </ul>
+        <ul class="top-nav--section top-nav--section__right">
+          <li id="ember511" class="top-nav--nav-entry ember-view">  <a href="#" id="logout" class="auth-widget auth-widget--logout top-nav--nav-link" data-ember-action="" data-ember-action-512="512">Logout</a>
+</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="sub-nav">
+  <div class="sub-nav--wrapper-inner sub-nav--route-">
+    <ul class="sub-nav--section">
+<li id="ember514" class="sub-nav--nav-entry ember-view">        <a href="/circuit/new-pack" id="ember515" class="sub-nav--nav-link sub-nav--nav-link__my-synth ember-view"><span class="sub-nav--nav-link-label">My Circuit</span></a>
+</li>
+<li id="ember516" class="sub-nav--nav-entry active ember-view">        <a href="/circuit/editor" id="ember517" class="sub-nav--nav-link sub-nav--nav-link__editor active ember-view"><span class="sub-nav--nav-link-label">Editor</span></a>
+</li>
+<li id="ember552" class="sub-nav--nav-entry ember-view"><a href="/circuit/firmware" id="ember553" class="sub-nav--nav-link sub-nav--nav-link__firmware sub-nav--nav-link-with-badge ember-view">          <span class="sub-nav--nav-link-label">Firmware</span>
+          <div id="ember566" class="new-content-badge new-firmware-badge ember-view">!
+</div>
+</a></li>
+<li id="ember567" class="sub-nav--nav-entry ember-view">        <a href="/circuit/help" id="ember568" class="sub-nav--nav-link sub-nav--nav-link__help ember-view"><span class="sub-nav-link-label">Help</span></a>
+</li>    </ul>
+  </div>
+</div>
+
+
+<div id="ember997" class="ember-view"><!----></div>
+
+<div id="main-section-wrapper" role="application" class="flex-grow flex-col">
+    <div class="flex-grid--rows flex-no-shrink">
+      <div class="flex-grid--full-width macro-editor--section">
+<!---->        <div id="ember998" class=" device-status needs-mode-change ember-view"><a href="#" class="device-status--connect-button tutorial-step-connect" data-ember-action="" data-ember-action-999="999"><span class="device-status--connect-button-text">Connect Circuit</span></a>
+<div class="device-status--message">
+      Connect your Circuit on USB and ensure it is powered on
+</div>
+<div class="device-status--links">
+  <a href="#" data-ember-action="" data-ember-action-1000="1000">more info</a>
+  <a href="#" class="tutorial-link" data-ember-action="" data-ember-action-1001="1001">tutorial</a>
+</div>
+
+<!----></div>
+<div id="ember1002" class="ember-view"><div class="save-dialog save-dialog--show-false">
+  <div class="save-dialog__inner-wrapper">
+              <div class="equal-button-row">
+            <button style="flex-grow: 1;" class="btn btn--lrg btn--action btn--full-width tutorial-step-browse-button" data-ember-action="" data-ember-action-1003="1003">Browser</button>
+            <button class="btn btn--lrg btn--action btn__save-to-cloud" data-ember-action="" data-ember-action-1004="1004">Save to Patch Pool</button>
+            <button class="btn btn--lrg btn--action btn__save-to-computer" data-ember-action="" data-ember-action-1005="1005">Save to PC</button>
+            <button disabled="" class="btn btn--lrg btn--action btn--full-width tutorial-store-to-circuit" data-ember-action="" data-ember-action-1006="1006">Store to Circuit</button>
+          </div>
+
+  </div>
+</div>
+</div><div id="ember1009" class="ember-view"><!----></div>        <div class="macro-editor--synth-switches flex-no-shrink">
+          <button class="btn macro-editor--synth-switch macro-editor--synth-switch-0 " data-ember-action="" data-ember-action-1010="1010">Synth 1</button>
+          <button class="btn macro-editor--synth-switch macro-editor--synth-switch-1 active" data-ember-action="" data-ember-action-1011="1011">Synth 2</button>
+        </div>
+        <div class="page-switcher synth-1 flex-no-shrink tutorial-step-synth-engine">
+          <button class="btn page-switcher--switch  page-switcher--switch__active" data-ember-action="" data-ember-action-1012="1012">Macros <a class="page-switcher--help-button" data-ember-action="" data-ember-action-1013="1013"><i aria-hidden="true" id="ember1016" class="fa fa-question-circle-o ember-view"></i></a></button>
+          <button class="btn page-switcher--switch  page-switcher--switch__" data-ember-action="" data-ember-action-1017="1017">Oscillators<a class="page-switcher--help-button" data-ember-action="" data-ember-action-1018="1018"><i aria-hidden="true" id="ember1019" class="fa fa-question-circle-o ember-view"></i></a></button>
+          <button class="btn page-switcher--switch  page-switcher--switch__" data-ember-action="" data-ember-action-1020="1020">Filter<a class="page-switcher--help-button" data-ember-action="" data-ember-action-1021="1021"><i aria-hidden="true" id="ember1022" class="fa fa-question-circle-o ember-view"></i></a></button>
+          <button class="btn page-switcher--switch  page-switcher--switch__" data-ember-action="" data-ember-action-1023="1023">Envelopes<a class="page-switcher--help-button" data-ember-action="" data-ember-action-1024="1024"><i aria-hidden="true" id="ember1025" class="fa fa-question-circle-o ember-view"></i></a></button>
+          <button class="btn page-switcher--switch  page-switcher--switch__" data-ember-action="" data-ember-action-1026="1026">LFO<a class="page-switcher--help-button" data-ember-action="" data-ember-action-1027="1027"><i aria-hidden="true" id="ember1028" class="fa fa-question-circle-o ember-view"></i></a></button>
+          <button class="btn page-switcher--switch  page-switcher--switch__" data-ember-action="" data-ember-action-1029="1029">FX<a class="page-switcher--help-button" data-ember-action="" data-ember-action-1030="1030"><i aria-hidden="true" id="ember1031" class="fa fa-question-circle-o ember-view"></i></a></button>
+          <button class="btn page-switcher--switch  page-switcher--switch__" data-ember-action="" data-ember-action-1032="1032">Settings<a class="page-switcher--help-button" data-ember-action="" data-ember-action-1033="1033"><i aria-hidden="true" id="ember1034" class="fa fa-question-circle-o ember-view"></i></a></button>
+        </div>
+      </div>
+    </div>
+    <div class="macro-editor--editor">
+      <div class="flex-grid--full-width">
+          <div class="macro-editor--editor-group">
+              <div id="ember1716" class="ember-view"><div class="macro-editor--row">
+  <fieldset class="macro-editor--fieldset">
+    <legend>Macro Editor</legend>
+    <div class="macro-knobs tutorial-step-macro-knobs">
+        <div class="macro-knobs--knob">
+          <div id="ember2117" class="active synth-1 tutorial-step-knob-twiddling value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 1" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2117-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2117__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2117__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">1</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2118" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 2" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2118-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2118__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2118__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">2</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2119" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 3" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2119-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2119__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2119__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">3</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2120" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 4" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2120-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2120__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2120__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">4</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2121" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 5" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2121-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2121__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2121__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">5</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2122" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 6" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2122-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2122__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2122__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">6</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2123" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 7" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2123-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2123__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2123__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">7</label>
+</div>
+        </div>
+        <div class="macro-knobs--knob">
+          <div id="ember2124" class=" synth-1  value-knob range-knob--state__ value-knob__selectable ember-view"><svg aria-valuenow="0" aria-valuemax="127" aria-valuemin="0" aria-label="Macro Knob Slot 8" tabindex="0" role="slider" viewBox="0 0 100 100" width="100" height="100" id="ember2124-control" class="value-knob--widget ember-view"><defs>
+  <filter id="ember2124__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+    <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 1 1 70 84.64101615137754" class="value-knob--widget--rail"></path>
+<path d="M 29.999999999999982 84.64101615137753 A 40 40 0 0 1 29.999999999999982 84.64101615137753" class="value-knob--widget--gauge"></path>
+
+<circle cx="50" cy="50" r="32" filter="url(#ember2124__dropshadow)" class="value-knob--widget--display value-knob--widget--display__"></circle>
+
+<text x="50" y="50" text-anchor="middle" dy="7" class="value-knob--widget--value">0</text>
+</svg>
+<label for="-control" class="value-knob--label">8</label>
+</div>
+        </div>
+    </div>
+  </fieldset>
+</div>
+<div class="macro-editor--row">
+  <fieldset class="macro-editor--fieldset">
+    <legend>Macro 1</legend>
+    <div class="macro-settings tutorial-step-edit-macro">
+
+        <div class="macro-settings--slot">
+          <div>
+            <div id="ember2125" class="synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-2126="2126"><div class="tree-select--cover-name">No Destination</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div>
+          </div>
+          <div><div id="ember2127" class="synth-1 range-knob range-knob--state__ ember-view"><div class="range-knob--wrapper">
+  <div class="range-knob--inputs">
+    <div>
+      <label for="ember2127-start-input">Start:</label>
+      <input step="1" min="0" max="127" id="ember2127-start-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+    <div>
+      <label for="ember2127-end-input">End:</label>
+      <input step="1" min="0" max="127" id="ember2127-end-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+  </div>
+
+  <svg width="100" height="100" viewBox="0 0 100 100" class="range-knob--widget">
+    <defs>
+      <filter id="ember2127__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+        <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+        <feComponentTransfer>
+          <feFuncA type="linear" slope="0.4"></feFuncA>
+        </feComponentTransfer>
+        <feMerge>
+          <feMergeNode></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--rail"></path>
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--gauge"></path>
+    <g role="slider" aria-label="Mod Range Slot 1, start value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="0" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__start-group">
+      <circle cx="33.999999999999986" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__start" data-ember-action="" data-ember-action-2128="2128" data-ember-action-2129="2129"></circle>
+      <text x="33.999999999999986" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__start" data-ember-action="" data-ember-action-2130="2130" data-ember-action-2131="2131">S</text>
+    </g>
+
+    <g role="slider" aria-label="Mod Range Slot 1, end value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="127" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__end-group">
+      <circle cx="66" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__end" data-ember-action="" data-ember-action-2132="2132" data-ember-action-2133="2133"></circle>
+      <text x="66" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__end" data-ember-action="" data-ember-action-2134="2134" data-ember-action-2135="2135">E</text>
+    </g>
+  </svg>
+</div>
+</div></div>
+          <div><div id="macro-depth--0" class="synth-1 macro-depth-slider value-slider value-slider__plusminus ember-view"><div class="value-slider--track" data-ember-action="" data-ember-action-2136="2136" data-ember-action-2137="2137">
+  <div style="left: 50.39370078740157%; width: 0%;" class="value-slider--gauge" data-ember-action="" data-ember-action-2138="2138" data-ember-action-2139="2139"></div>
+  <div tabindex="0" role="slider" aria-valuemin="-64" aria-valuemax="63" aria-valuenow="0" aria-label="Mod Depth Slot 1" style="left: 50.39370078740157%" class="value-slider--thumb" data-ember-action="" data-ember-action-2140="2140" data-ember-action-2141="2141" data-ember-action-2142="2142" data-ember-action-2143="2143">0</div>
+</div>
+</div></div>
+          <div><label for="macro-depth--0">Depth</label></div>
+<!---->        </div>
+        <div class="macro-settings--slot">
+          <div>
+            <div id="ember2144" class="synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-2145="2145"><div class="tree-select--cover-name">No Destination</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div>
+          </div>
+          <div><div id="ember2146" class="synth-1 range-knob range-knob--state__ ember-view"><div class="range-knob--wrapper">
+  <div class="range-knob--inputs">
+    <div>
+      <label for="ember2146-start-input">Start:</label>
+      <input step="1" min="0" max="127" id="ember2146-start-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+    <div>
+      <label for="ember2146-end-input">End:</label>
+      <input step="1" min="0" max="127" id="ember2146-end-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+  </div>
+
+  <svg width="100" height="100" viewBox="0 0 100 100" class="range-knob--widget">
+    <defs>
+      <filter id="ember2146__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+        <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+        <feComponentTransfer>
+          <feFuncA type="linear" slope="0.4"></feFuncA>
+        </feComponentTransfer>
+        <feMerge>
+          <feMergeNode></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--rail"></path>
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--gauge"></path>
+    <g role="slider" aria-label="Mod Range Slot 2, start value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="0" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__start-group">
+      <circle cx="33.999999999999986" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__start" data-ember-action="" data-ember-action-2147="2147" data-ember-action-2148="2148"></circle>
+      <text x="33.999999999999986" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__start" data-ember-action="" data-ember-action-2149="2149" data-ember-action-2150="2150">S</text>
+    </g>
+
+    <g role="slider" aria-label="Mod Range Slot 2, end value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="127" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__end-group">
+      <circle cx="66" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__end" data-ember-action="" data-ember-action-2151="2151" data-ember-action-2152="2152"></circle>
+      <text x="66" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__end" data-ember-action="" data-ember-action-2153="2153" data-ember-action-2154="2154">E</text>
+    </g>
+  </svg>
+</div>
+</div></div>
+          <div><div id="macro-depth--1" class="synth-1 macro-depth-slider value-slider value-slider__plusminus ember-view"><div class="value-slider--track" data-ember-action="" data-ember-action-2155="2155" data-ember-action-2156="2156">
+  <div style="left: 50.39370078740157%; width: 0%;" class="value-slider--gauge" data-ember-action="" data-ember-action-2157="2157" data-ember-action-2158="2158"></div>
+  <div tabindex="0" role="slider" aria-valuemin="-64" aria-valuemax="63" aria-valuenow="0" aria-label="Mod Depth Slot 2" style="left: 50.39370078740157%" class="value-slider--thumb" data-ember-action="" data-ember-action-2159="2159" data-ember-action-2160="2160" data-ember-action-2161="2161" data-ember-action-2162="2162">0</div>
+</div>
+</div></div>
+          <div><label for="macro-depth--1">Depth</label></div>
+<!---->        </div>
+        <div class="macro-settings--slot">
+          <div>
+            <div id="ember2163" class="synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-2164="2164"><div class="tree-select--cover-name">No Destination</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div>
+          </div>
+          <div><div id="ember2165" class="synth-1 range-knob range-knob--state__ ember-view"><div class="range-knob--wrapper">
+  <div class="range-knob--inputs">
+    <div>
+      <label for="ember2165-start-input">Start:</label>
+      <input step="1" min="0" max="127" id="ember2165-start-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+    <div>
+      <label for="ember2165-end-input">End:</label>
+      <input step="1" min="0" max="127" id="ember2165-end-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+  </div>
+
+  <svg width="100" height="100" viewBox="0 0 100 100" class="range-knob--widget">
+    <defs>
+      <filter id="ember2165__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+        <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+        <feComponentTransfer>
+          <feFuncA type="linear" slope="0.4"></feFuncA>
+        </feComponentTransfer>
+        <feMerge>
+          <feMergeNode></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--rail"></path>
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--gauge"></path>
+    <g role="slider" aria-label="Mod Range Slot 3, start value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="0" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__start-group">
+      <circle cx="33.999999999999986" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__start" data-ember-action="" data-ember-action-2166="2166" data-ember-action-2167="2167"></circle>
+      <text x="33.999999999999986" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__start" data-ember-action="" data-ember-action-2168="2168" data-ember-action-2169="2169">S</text>
+    </g>
+
+    <g role="slider" aria-label="Mod Range Slot 3, end value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="127" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__end-group">
+      <circle cx="66" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__end" data-ember-action="" data-ember-action-2170="2170" data-ember-action-2171="2171"></circle>
+      <text x="66" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__end" data-ember-action="" data-ember-action-2172="2172" data-ember-action-2173="2173">E</text>
+    </g>
+  </svg>
+</div>
+</div></div>
+          <div><div id="macro-depth--2" class="synth-1 macro-depth-slider value-slider value-slider__plusminus ember-view"><div class="value-slider--track" data-ember-action="" data-ember-action-2174="2174" data-ember-action-2175="2175">
+  <div style="left: 50.39370078740157%; width: 0%;" class="value-slider--gauge" data-ember-action="" data-ember-action-2176="2176" data-ember-action-2177="2177"></div>
+  <div tabindex="0" role="slider" aria-valuemin="-64" aria-valuemax="63" aria-valuenow="0" aria-label="Mod Depth Slot 3" style="left: 50.39370078740157%" class="value-slider--thumb" data-ember-action="" data-ember-action-2178="2178" data-ember-action-2179="2179" data-ember-action-2180="2180" data-ember-action-2181="2181">0</div>
+</div>
+</div></div>
+          <div><label for="macro-depth--2">Depth</label></div>
+<!---->        </div>
+        <div class="macro-settings--slot">
+          <div>
+            <div id="ember2182" class="synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-2183="2183"><div class="tree-select--cover-name">No Destination</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div>
+          </div>
+          <div><div id="ember2184" class="synth-1 range-knob range-knob--state__ ember-view"><div class="range-knob--wrapper">
+  <div class="range-knob--inputs">
+    <div>
+      <label for="ember2184-start-input">Start:</label>
+      <input step="1" min="0" max="127" id="ember2184-start-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+    <div>
+      <label for="ember2184-end-input">End:</label>
+      <input step="1" min="0" max="127" id="ember2184-end-input" class="range-knob--input ember-text-field ember-view" type="number">
+    </div>
+  </div>
+
+  <svg width="100" height="100" viewBox="0 0 100 100" class="range-knob--widget">
+    <defs>
+      <filter id="ember2184__dropshadow" height="130%" class="value-knob--widget--dropshadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+        <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+        <feComponentTransfer>
+          <feFuncA type="linear" slope="0.4"></feFuncA>
+        </feComponentTransfer>
+        <feMerge>
+          <feMergeNode></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--rail"></path>
+    <path d="M 33.999999999999986 77.71281292110203 A 32 32 0 1 1 66 77.71281292110203" class="range-knob--widget--gauge"></path>
+    <g role="slider" aria-label="Mod Range Slot 4, start value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="0" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__start-group">
+      <circle cx="33.999999999999986" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__start" data-ember-action="" data-ember-action-2185="2185" data-ember-action-2186="2186"></circle>
+      <text x="33.999999999999986" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__start" data-ember-action="" data-ember-action-2187="2187" data-ember-action-2188="2188">S</text>
+    </g>
+
+    <g role="slider" aria-label="Mod Range Slot 4, end value" aria-valuemax="127" aria-valuemin="0" aria-valuenow="127" tabindex="0" class="range-knob--widget--handle-group range-knob--widget--handle__end-group">
+      <circle cx="66" cy="77.71281292110203" filter="" class="range-knob--widget--handle range-knob--widget--handle__end" data-ember-action="" data-ember-action-2189="2189" data-ember-action-2190="2190"></circle>
+      <text x="66" y="77.71281292110203" text-anchor="middle" dy="5" class="range-knob--widget--handle-label range-knob--widget--handle-label__end" data-ember-action="" data-ember-action-2191="2191" data-ember-action-2192="2192">E</text>
+    </g>
+  </svg>
+</div>
+</div></div>
+          <div><div id="macro-depth--3" class="synth-1 macro-depth-slider value-slider value-slider__plusminus ember-view"><div class="value-slider--track" data-ember-action="" data-ember-action-2193="2193" data-ember-action-2194="2194">
+  <div style="left: 50.39370078740157%; width: 0%;" class="value-slider--gauge" data-ember-action="" data-ember-action-2195="2195" data-ember-action-2196="2196"></div>
+  <div tabindex="0" role="slider" aria-valuemin="-64" aria-valuemax="63" aria-valuenow="0" aria-label="Mod Depth Slot 4" style="left: 50.39370078740157%" class="value-slider--thumb" data-ember-action="" data-ember-action-2197="2197" data-ember-action-2198="2198" data-ember-action-2199="2199" data-ember-action-2200="2200">0</div>
+</div>
+</div></div>
+          <div><label for="macro-depth--3">Depth</label></div>
+<!---->        </div>
+    </div>
+  </fieldset>
+</div>
+</div>
+<!----><!----><!----><!----><!----><!---->          </div>
+          <div class="macro-editor--editor-group tutorial-step-mod-matrix">
+            <div id="ember1164" class="mod-matrix-editor ember-view"><fieldset class="macro-editor--fieldset">
+  <legend>Modulation Matrix</legend>
+  <div class="mod-matrix-editor--slots">
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector active  synth-1" data-ember-action="" data-ember-action-2201="2201">1</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2202="2202">2</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2203="2203">3</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2204="2204">4</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2205="2205">5</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2206="2206">6</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2207="2207">7</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2208="2208">8</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2209="2209">9</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2210="2210">10</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2211="2211">11</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2212="2212">12</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2213="2213">13</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2214="2214">14</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2215="2215">15</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2216="2216">16</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2217="2217">17</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2218="2218">18</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2219="2219">19</a>
+      <a title="false" href="#" class="mod-matrix-editor--slot-selector   synth-1" data-ember-action="" data-ember-action-2220="2220">20</a>
+    <a class="macro-editor--help-button" data-ember-action="" data-ember-action-1209="1209"><i aria-hidden="true" id="ember1210" class="fa fa-question-circle-o ember-view"></i></a>
+  </div>
+  <div class="flex-grid mod-matrix-editor--params">
+    <div class="flex-grid--item flex-grid--item--l3">
+      <div class="mod-matrix-editor--param">
+        <div><div id="ember1211" class="mod-matrix-editor--dropdown synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-1212="1212"><div class="tree-select--cover-name">Source 1</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div></div>
+        <div class="mod-matrix-editor--value-set"><div>Direct</div> <div id="ember1215" class="ember-view"><img src="../assets/images/svgs/modmatrix/direct.svg" aria-hidden="true">
+</div></div>
+      </div>
+    </div>
+    <div class="flex-grid--item flex-grid--item--l3">
+      <div class="mod-matrix-editor--param">
+        <div><div id="ember1216" class="mod-matrix-editor--dropdown synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-1217="1217"><div class="tree-select--cover-name">Source 2</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div></div>
+        <div class="mod-matrix-editor--value-set"><div>Direct</div> <div id="ember1218" class="ember-view"><img src="../assets/images/svgs/modmatrix/direct.svg" aria-hidden="true">
+</div></div>
+      </div>
+    </div>
+    <div class="flex-grid--item flex-grid--item--l3">
+      <div class="mod-matrix-editor--param">
+        <div class="mod-matrix-editor--label synth-1">Depth</div>
+        <div class="mod-matrix-editor--slider"><div id="ember1219" class="synth-1 value-slider ember-view"><div class="value-slider--track" data-ember-action="" data-ember-action-1220="1220" data-ember-action-1221="1221">
+  <div style="left: 50.39370078740157%; width: 0%;" class="value-slider--gauge" data-ember-action="" data-ember-action-1222="1222" data-ember-action-1223="1223"></div>
+  <div tabindex="0" role="slider" aria-valuemin="-64" aria-valuemax="63" aria-valuenow="0" style="left: 50.39370078740157%" class="value-slider--thumb" data-ember-action="" data-ember-action-1224="1224" data-ember-action-1225="1225" data-ember-action-1226="1226" data-ember-action-1227="1227">0</div>
+</div>
+</div></div>
+      </div>
+    </div>
+    <div class="flex-grid--item flex-grid--item--l3">
+      <div class="mod-matrix-editor--param">
+        <div><div id="ember1228" class="mod-matrix-editor--dropdown synth-1 tree-select ember-view"><div class="tree-select--value">
+<!---->  <button role="listbox" tabindex="0" class="tree-select--open-toggle" data-ember-action="" data-ember-action-1229="1229"><div class="tree-select--cover-name">Destination</div><div class="tree-select--open-indicator">▼</div></button></div>
+<!----></div></div>
+        <div class="mod-matrix-editor--value-set"><div>Osc 1/2 Pitch</div> <div id="ember1232" class="ember-view"><img src="../assets/images/svgs/modmatrix/osc_1_2_pitch.svg" aria-hidden="true">
+</div></div>
+      </div>
+    </div>
+  </div>
+</fieldset>
+</div>
+          </div>
+          <div class="macro-editor--editor-group">
+            <dl class="macro-editor--patch-info--list">
+              <dt>Patch:</dt>
+              <dd>Initial Patch</dd>
+              <dt>Category:</dt>
+              <dd>None</dd>
+              <dt>Genre:</dt> <dd>None</dd>
+            </dl>
+          </div>
+      </div>
+    </div>
+</div>
+<div id="ember1235" class="ember-view"><!----></div>
+<div id="ember1236" class="ember-view">
+</div>
+
+
+  </section>
+</div>
+<div id="ember575" class="ember-view"><!----></div>
+</div></body></html>
